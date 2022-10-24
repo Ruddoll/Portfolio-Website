@@ -29,6 +29,7 @@ header h1{
 .nav-items{
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 10px;
     width: 90%;
     display: flex;
     justify-content: space-evenly;
@@ -47,6 +48,7 @@ header h1{
 
 footer{
     padding-top: 20px;
+    padding-bottom: 10px;
     background-color:  #2b78e4;
     display: flex;
     flex-direction: column;
@@ -76,19 +78,24 @@ main {
     padding: 20px;
 }
 
-.traning-option{
+.container{
     background-color: #2b78e4;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-.traning-option img{
-    width: 300px;
+img{
+    max-width: 100%;
 }
 
-.traning-option h3{
-    color: #ffffff;
+.image{
+    flex-basis: 40%;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 @media screen and (min-width: 600px){
