@@ -8,18 +8,22 @@
         <link rel="icon" href="./images/my logo.png">
     </head>
     <body>
+
+        <!-- Navigation Bar -->
         <header class=".header">
            <nav class="navbar">
                 <a href="index.html" class="nav-logo"><img src="./images/my logo.png" alt="my logo" style="width:100px;height:100px;"></a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="./pages/training.html">Training</a>
+                        <a href="./pages/services.html">My Services</a>
+                    <li class="nav-item">
+                        <a href="./pages/work.html">My Work</a>
                     </li>
                     <li class="nav-item">
                         <a href="./pages/about.html">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./pages/contact.html">Contact</a>
+                        <a href="#footer">Contact</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -30,31 +34,29 @@
             </nav>
         </header>
 
-        <main>
-            <h1 class="page-name">Moyo Adewusi</h1>
-            <div class="container">
-                <div class="image">
-                    <img src="./images/portrait.jpg" alt="Portrait of Moyosoreoluwa Adewusi">
-                </div>
-                <div class="text">
-                    <h1>Hello I'm Moyo Adewusi</h1>
-                <p>I'm a full stack web developer (in traning) based in Australia.</p>
-                </div>
-            </div>
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Moyo Adewusi</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">full-stack developer</p>
+            <img src="/images/portrait.jpg" alt="a picture of Moyo Adewusi posing" class="intro__img">
+        </section>
 
-        </main>
+        <!-- Blog -->
+        
 
-        <footer>
-            <div class="social-media">
-                <a href="https://github.com/Ruddoll" target="_blank"><img src="./images/gitgub logo.png"></a> 
-                <a href="https://twitter.com/Moyo94135473" target="_blank"><img src="./images/twitter logo.png"></a> <!--add Twitter link and image-->
-                <a href="https://www.linkedin.com/in/moyo-adewusi-a1b8a4254/" target="_blank"><img src="./images/linkedin logo.png"></a>
-            </div>
-            <div class="contact-info">
-                <p>Address: 000 Somewhere St. 0000 City </p>
-                <p>Phone: <a href="tel:0000000000">0415785700</a> </p>
-                <p>Email: <a href="mailto:">moyo.adewusi@gmail.com</a> </p>
-            </div>
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a href="mailto:moyo.adewusi@gmail.com" class="footer__link">moyo.adewusi@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" 
+                href="https://github.com/Ruddoll" target="_blank"><img src="./images/icons8-github-64.png"></a></li>
+                <li class="social-list__item"><a class="social-list__link" 
+                href="https://twitter.com/Moyo94135473" target="_blank"><img src="./images/icons8-twitter-64.png"></a></li>
+                <li class="social-list__item"><a class="social-list__link" 
+                href="https://www.linkedin.com/in/moyo-adewusi-a1b8a4254/" target="_blank"><img src="./images/icons8-linkedin-circled-64.png"></a></li>
+            </ul>
         </footer>
         <div>
             <p style="text-align:center">Designed and Developed by <strong>Moyo Adewusi</strong> </p>
