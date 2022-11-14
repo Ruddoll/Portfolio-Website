@@ -22,7 +22,11 @@ Sitemap
 
 Screenshots
 
-Target audience
-Employers
+Target 
+
+the target audience for this website are future employers
+
 
 Tech stack (e.g. html, css, deployment platform, etc)
+
+The website is made primaraly with html and css. JS was used to create the hamburger menu. The site was deployed with github pages.
