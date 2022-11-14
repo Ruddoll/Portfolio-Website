@@ -5,7 +5,7 @@ GitHub repo:
 https://github.com/Ruddoll/Portfolio-Website
 
 Presentation video:
-https://docs.google.com/presentation/d/1WE-TeZOZY40tmSYoaQxh4_NtKe2c8bQ6gvjcjGx8lVE/edit?usp=sharing
+https://drive.google.com/file/d/1mC8ZgceC136ZwQXIqRWNo-Cwjx39bbr9/view?usp=share_link
 
 
 ## Description of Website
