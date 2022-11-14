@@ -454,6 +454,7 @@ h3 {font-size: var(--fs-h3);}
     background-color: var(--clr-light);
     border: 1px solid #ececec;
     margin: 20px;
+    box-shadow: var(--bs);
 }
 
 .blog-img {
