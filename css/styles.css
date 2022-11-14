@@ -194,7 +194,7 @@ h3 {font-size: var(--fs-h3);}
     background-color: #101010;
 }
 
-@media (max-width: 1044px){
+@media (max-width: 1070px){
    
     .nav-menu {
         position: fixed;
